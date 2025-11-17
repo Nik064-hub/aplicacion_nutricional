@@ -5,7 +5,8 @@ import 'dart:io';
 import 'package:http/http.dart' as http;
 
 class AIFoodService {
-  static const String apiKey = ""; // AQUÍ VA TU API KEY
+  static const String apiKey =
+      "816b1c7a4c1b4fd2ac9d5bd43323d721"; // AQUÍ VA TU API KEY
 
   // Identificar alimento por foto
   Future<Map<String, dynamic>?> detectarAlimento(File imagen) async {
