@@ -10,10 +10,26 @@ dependencies:
   flutter:
     sdk: flutter
 
-dev_dependencies:
-  flutter_test:
-    sdk: flutter
-  flutter_lints: ^5.0.0
+  cupertino_icons: ^1.0.6
 
-flutter:
-  uses-material-design: true
+  # BD Local
+  sqflite: ^2.3.2
+  path_provider: ^2.1.3
+
+  # IA y API
+  http: ^1.2.1
+
+  # Notificaciones
+  flutter_local_notifications: ^17.1.2
+  flutter_timezone: ^1.0.6
+  timezone: ^0.9.3
+
+  # PDF Export
+  pdf: ^3.10.4
+  printing: ^5.11.1
+
+  # Cache de imágenes
+  cached_network_image: ^3.3.1
+
+  # Manejo de sesión
+  shared_preferences: ^2.2.2
