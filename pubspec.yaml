@@ -33,3 +33,6 @@ dependencies:
 
   # Manejo de sesión
   shared_preferences: ^2.2.2
+
+  crypto: ^3.0.3
+
